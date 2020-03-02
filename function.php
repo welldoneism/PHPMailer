@@ -19,7 +19,7 @@ function smtp_mail($to, $subject, $message, $from_name, $from, $cc, $bcc, $debug
   $mail->Port 		  = 587;                                      // Masukkan Port SMTP
   $mail->SMTPSecure = 'tls';                                    // Masukkan Pilihan Enkripsi ( `tls` atau `ssl` )
   $mail->Username 	= '<mail account>@<yourdomain>';                // Masukkan Email yang digunakan selama proses pengiriman email via SMTP
-  $mail->Password 	= 'Asdasd123#';        						          // Masukkan Password dari Email tsb
+  $mail->Password 	= '<your mail password>';        						          // Masukkan Password dari Email tsb
   $default_email_from       = 'info@l<yourdomain>.com';        // Masukkan default from pada email
   $default_email_from_name  = 'Customer Feedback';           // Masukkan default nama dari from pada email
   
